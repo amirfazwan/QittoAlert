@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name ="android:colorPrimary">#FF00A8C3</item>
+        <item name ="android:colorPrimaryDark">#ff0087a1</item>
+        <item name ="android:colorAccent">#8a0808</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="fab_reward">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:src">@drawable/fire_extinguisher</item>
+        <item name="borderWidth">0dp</item>
+        <!--<item name="android:backgroundTint">@android:color/holo_red_dark</item>-->
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+</resources>
