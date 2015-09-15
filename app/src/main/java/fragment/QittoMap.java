@@ -391,11 +391,12 @@ public class QittoMap extends Fragment implements OnMapReadyCallback {
     }
 
     public void getData() {
-
+        String ACTION = "getData";
         final List<LatLng> list = new ArrayList<>();
 
         pDialog.show();
-        String requestUrl = API.URL_STATISTICS;
+        //String requestUrl = API.URL_STATISTICS;
+        String requestUrl = API.URL + ACTION + "&tahun=2015";
         Logger.d(requestUrl);
 
         JsonArrayRequest req = new JsonArrayRequest(requestUrl,
